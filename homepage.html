@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+	.button {
+	  border: none;
+	  color: white;
+	  padding: 50px 50px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  cursor: pointer;
+	}
+
+	.button1 {
+		background-color: #4CAF50;
+		position: absolute;
+        top: 20%;
+        left: 40%
+	}
+
+	.button2 {background-color: #008CBA;
+		position: absolute;
+        top: 40%;
+        left: 40%;
+        padding: 50px 83px;
+    } 
+    .text {
+    	color:darkblue;
+    	text-align: center;
+
+    }
+
+    body {
+    	background-color: lightblue;
+
+    }
+
+	</style>
+</head>
+	<body>
+		<h1 class="text">HOTEL RESERVATION SYSTEM<h1/>
+		<form action="getHotelandGetDate.php" method="post"> <br>
+			<input class="button button1" type="submit" value="Get Hotel and Get Date"/>
+		</form> 
+
+		<form action="BookingInfo.php" method="post"> <br>
+			<input class="button button2" type="submit" value="Booking Infos"/>
+		</form> 
+
+	</body>
+</html>
